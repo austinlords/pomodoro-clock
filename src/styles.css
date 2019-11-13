@@ -1,0 +1,43 @@
+#root {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: aquamarine;
+  height: 100%;
+  width: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#pomodoro {
+  padding-top: 200px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#break-length,
+#session-length {
+  margin: 0px 20px;
+}
+
+#timer {
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 20px;
+  margin: 10px 100px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.grow-hover:hover {
+  transform: scale(1.05);
+}
